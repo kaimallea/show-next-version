@@ -1,0 +1,33 @@
+{
+  "name": "@kai/show-next-version",
+  "version": "1.0.0",
+  "description": "Preview what semantic-release thinks the next version will be for the current branch. And don't actually release anything.",
+  "author": "Kai Mallea <kai@kai.dev> (https://kai.dev/)",
+  "homepage": "https://github.com/kaimallea/show-next-version",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaimallea/show-next-version.git"
+  },
+  "keywords": [
+    "semantic",
+    "release",
+    "version",
+    "preview"
+  ],
+  "bugs": {
+    "url": "https://github.com/kaimallea/show-next-version/issues"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "bin": {
+    "show-next-version": "src/index.js"
+  },
+  "peerDependencies": {
+    "semantic-release": "^17.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "prettier": "^2.2.1"
+  }
+}
